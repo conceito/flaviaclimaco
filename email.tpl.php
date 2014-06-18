@@ -5,26 +5,26 @@
     <title></title>
 </head>
 
-<body bgcolor="#e4edf6">
+<body bgcolor="#FAFFFB">
 
-<table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" bgcolor="#e4edf6">
+<table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" bgcolor="#FAFFFB">
     <tr>
         <td align="center">
 
             <br/>
 
-            <table cellspacing="0" cellpadding="0" border="1" width="600" bordercolor="#ccdded" style="border-color:#ccdded; border-width:1px;border-collapse: collapse;" bgcolor="#ffffff">
+            <table cellspacing="0" cellpadding="0" border="1" width="600" bordercolor="#D5EDCC" style="border-color:#D5EDCC; border-width:1px;border-collapse: collapse;" bgcolor="#ffffff">
                 <tr>
                     <td>
 
                         <table cellspacing="0" cellpadding="0" border="0" width="600">
                             <tr bgcolor="#FFFFFF" style="background-color:#FFFFFF">
                                 <td width="30"></td>
-                                <td width="540" align="right" valign="top" style="font-family:Arial; font-size:14px; line-height:22px; color:#11263E;">
+                                <td width="540" align="" valign="top" style="font-family:Arial; font-size:14px; line-height:22px; color:#11263E;">
                                     <br/>
-                                    <a href="<?php echo $base_url?>" style="text-align: right; display: block;">
-	                                    <?php echo $titleSite?>
-<!--                                        <img src="--><?php //echo $base_url?><!--assets/img/logo-cor.png"  width="200" alt="">-->
+                                    <a href="<?php echo $base_url?>" style=" display: block;">
+
+                                        <img src="<?php echo $base_url?>assets/img/logo.png"  width="200" alt="">
                                     </a>
                                     <br/>
 
@@ -39,7 +39,7 @@
                                     <?php if(isset($body)) echo $body;?>
 
 
-                                    <hr noshade="noshade" color="#ccdded">
+                                    <hr noshade="noshade" color="#D5EDCC">
                                     <p style="text-align:center; font-size:12px;">
                                         <a href="<?php echo $base_url?>"><?php echo $base_url?></a>
                                     </p>

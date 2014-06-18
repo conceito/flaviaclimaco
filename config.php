@@ -22,8 +22,8 @@ $base_url = str_replace('\\', '', $base_url);
 /****************************************
  *  CLIENT CONFIG
  */
-$titleSite = "Company Name";
-$emailSite = "mail@mail.com";
+$titleSite = "Flávia Clímaco";
+$emailSite = "flaviaclimaco@terra.com.br";
 
 /***************************************
  *   INIT ERRORS

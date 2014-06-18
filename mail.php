@@ -30,11 +30,11 @@ if ($type == 'contato'):
 	/**
 	 * POST data
 	 */
-	$subject   = 'Contato pelo site';
 	$formName  = trim($_POST['nome']);
 	$formEmail = trim($_POST['email']);
 	$msg = trim($_POST['mensagem']);
 
+	$subject   = 'Contato: ' . $formName;
 	/**
 	 * Validation
 	 */
@@ -61,6 +61,7 @@ if ($type == 'contato'):
 	$body .= '<br>' . PHP_EOL;
 	$body .= '<b>E-mail: </b>' . $formEmail;
 	$body .= '<br>' . PHP_EOL;
+	$body .= '<br>' . PHP_EOL;
 	$body .= $msg;
 
 	$html = load_email_template($body);
@@ -69,6 +70,8 @@ if ($type == 'contato'):
 endif;
 // contato
 
+
+dd($html);
 ///////////////////// PHP MAILER ////////////////////////////////////
 require_once('inc/mailer5/class.phpmailer.php');
 

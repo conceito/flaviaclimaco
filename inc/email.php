@@ -12,7 +12,7 @@ return array(
 
 	'to' => array(
 		'name' => '', // leave empty to use $titleSite
-		'email' => '' // can be overridden by $toMail
+		'email' => 'flaviaclimaco@terra.com.br' // can be overridden by $toMail
 	),
 
 	'from' => array(

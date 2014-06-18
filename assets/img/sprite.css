@@ -1,0 +1,5 @@
+.sprite{ background:url("sprite.png") top left no-repeat; }
+.icon-share{ width:45px; height:45px; background-position:-5px -5px; }
+.icon-slideshare{ width:33px; height:34px; background-position:-5px -55px; }
+.icon-linkedin{ width:33px; height:34px; background-position:-5px -94px; }
+

@@ -82,6 +82,13 @@ hr {
 |    BASE
 |=================================================================================
 */
+.sprt{ background:url("../img/sprite.png") top left no-repeat;  display: inline-block; vertical-align: middle;}
+.icon-share{ width:45px; height:45px; background-position:-5px -5px; }
+.icon-slideshare{ width:33px; height:34px; background-position:-5px -55px; }
+.icon-linkedin{ width:33px; height:34px; background-position:-5px -94px; }
+
+
+
 
 
 /*
@@ -94,6 +101,165 @@ hr {
 |---------------------------------------------------------------------------------
 */
 
+body{
+    background-image: url(../img/header-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #95BA79;
+}
+
+#header {
+    overflow: hidden;
+    background-color: #fff;
+}
+
+#header .container {
+    margin-top: 34px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo > a {
+}
+
+.logo > a > img {
+}
+
+
+.share-list {
+    float: right;
+}
+
+.share-list > li {
+    display: inline-block;
+    margin: 0 0 0 10px;
+}
+
+.share-list > li > a {
+}
+
+.share-list .sprt {
+}
+
+.share-list .icon-slideshare {
+}
+
+.share-list .icon-linkedin {
+}
+
+
+#header .color-bar {
+    background-color: #95BA79;
+    background-image: url(../img/header-bg.jpg);  background-repeat: no-repeat;  
+    background-position: center -146px;
+    min-height: 87px;
+}
+
+
+#header  nav {
+}
+
+#header .spec {
+    color: #fff;
+    display: block;
+    margin: 24px 0 0 0;
+    font-size: 1.7em;
+    font-weight: 300;
+}
+
+.header-menu {
+    text-align: right;
+    margin: 0;
+}
+
+.header-menu > li {
+    display: inline-block;
+    margin-left: -.3em;
+}
+
+.header-menu a:link,
+.header-menu a:visited{
+    color: #fff;
+    display: block;
+    padding: 31px 20px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    font-size: 1.2em;
+}
+
+.header-menu a:hover{
+    background-color: #679248;
+}
+
+.header-menu .active {
+}
+
+.header-menu .active > a {
+    background-color: #7BAA59;
+}
+
+
+#main{
+    background: url(../img/page-bg.jpg);
+    padding: 0 0 30px;
+}
+
+.page-title{
+    color: #4B6734;
+    font-weight: 300;
+    text-transform: lowercase;
+    margin-bottom: 0.6em;
+}
+
+h2{
+    color: #4B6734;
+}
+
+h3{color: #4B6734;}
+
+
+
+#footer {
+    background: url(../img/footer-bg.jpg) no-repeat center top;
+    min-height: 220px;
+}
+
+#footer .container {
+    padding-top: 30px;
+}
+
+
+
+#footer .share-lnk {
+    color: #fff;
+    font-weight: 700;
+}
+
+#footer .sprt {
+}
+
+#footer .icon-share {
+}
+
+.share-lnk .lb {
+}
+
+
+
+#footer address {
+    color: #fff;
+}
+
+
+#footer small {
+    display: block;
+    border-top: #B6D3AF solid 1px;
+    padding: 5px;
+    color: #fff;
+    font-size: 11px;
+}
 
 
 /* ==========================================================================
